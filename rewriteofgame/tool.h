@@ -8,9 +8,12 @@
 
 #ifndef tool_h
 #define tool_h
+using namespace std;
 struct Ttool{
     std::string name;
     int num;
+    int id_;
     
-};
+}tool[10000];
+
 #endif /* Header_h */
