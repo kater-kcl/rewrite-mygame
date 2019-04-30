@@ -10,6 +10,6 @@
 #include "mob.h"
 #include "tool.h"
 int main(int argc, const char * argv[]) {
-    // insert code here...
+    cout<<tool_0.name;
     return 0;
 }
