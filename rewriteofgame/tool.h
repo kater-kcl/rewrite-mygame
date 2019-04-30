@@ -8,12 +8,19 @@
 
 #ifndef tool_h
 #define tool_h
+#include <string>
 using namespace std;
 struct Ttool{
-    std::string name;
     int num;
+    string name;
     int id_;
-    
-}tool[10000];
-
+    int att;
+};
+Ttool tool_0={
+    0,
+    "管理员之刃",
+    0,
+    999999
+};
+Ttool tool[10]={tool_0};
 #endif /* Header_h */
