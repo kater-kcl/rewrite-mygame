@@ -9,6 +9,7 @@
 #ifndef mob_h
 #define mob_h
 #include <string>
+using namespace std;
 struct tmob{
     std::string name;
     int hp;
